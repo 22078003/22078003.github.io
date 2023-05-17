@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-gb" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>MOBILE WORLD STATION</title>
+<!-- #EndEditable -->
+<style type="text/css">
+.auto-style1 {
+	text-align: right;
+}
+</style>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif; width: 900px; margin-right: auto; height: 533px; margin-left: auto;">
+
+<p>
+<img alt="Mobile World Station Banner" height="149" src="images/Mobile_World_Station_Banner.png" width="900" /></p>
+<p class="auto-style1" style="width: 896px; text-decoration: none; font-family: Arial, Helvetica, sans-serif; color: #0000D1;">
+<a href="index.htm" style="color: #0000D1; text-decoration: underline;">Home</a> -
+<a href="iphone.htm" style="color: #0000D1; text-decoration: underline;">iPhone</a> - 
+<a href="samsung.htm" style="color: #0000D1; text-decoration: underline;">Samsung</a> -
+<a href="android.htm" style="color: #0000D1; text-decoration: underline;">Android</a> - 
+<a href="iphone_acc.htm" style="color: #0000D1; text-decoration: underline;">iPhone Accessories</a> 
+- <a href="samsung_acc.htm" style="color: #0000D1; text-decoration: underline;">Samsung Accessories</a> - 
+<a href="android_acc.htm" style="color: #0000D1; text-decoration: underline;">
+Android Accessories</a> -<a href="about.htm" style="color: #0000D1; text-decoration: underline;"> About Me</a></p>
+
+<!-- #BeginEditable "body" -->
+<h3 style="font-family: Arial, Helvetica, sans-serif; font-size: 19px; color: #0000D1">Subheading Text</h3>
+
+<p style="font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #000000">
+Text here</p>
+<!-- #EndEditable -->
+</body>
+
+</html>
