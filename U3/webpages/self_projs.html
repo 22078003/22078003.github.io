@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - College Projects</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        * {box-sizing:border-box}
+
+        /* Slideshow container */
+        .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+        display: none;
+        }
+
+        /* Next & previous buttons */
+        .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+        background-color: rgba(166,251,157,1);
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+        }
+
+        /* Caption text */
+        .text {
+        color: #030500;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+        }
+
+        .active, .dot:hover {
+        background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+        }
+
+        @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+        }
+    </style>
+</head>
+<body>
+    <div class="grid grid-rows-[8em_minmax(124.5em,124.5em)] lg:grid-rows-[8em_minmax(50em,50em)] gap-0">
+
+        <!--First Grid-->
+        <div class="flex flex-row text-black h-[100%] border-b-2 border-black lg:mx-[10%] bg-[#ffffff]">
+            <div class="w-[50%] sm:w-[30%] md:w-[50%] lg:w-[50%]">
+                <a href="/">
+                    <img src="../images/logo.png" alt="Banner Image" class="w-[50%] sm:w-full md:w-[80%] lg:w-[50%] md:mt-[1%] mx-auto mt-[5%] lg:mt-0 sm:pl-[5%] md:pl-0 lg:pl-0">
+                </a>
+            </div> 
+            <div class="w-[50%] sm:w-[7 0%] md:w-[50%] text-[#030500] lg:w-[50%] text-center justify-center space-x-10 sm:space-x-1 md:space-x-4 lg:space-x-24 pt-[5%] lg:pt-[3%] text-xl">
+                <a href="/" class="bg-[#a6fb9d] border-[#a6fb9d] text-center border-2 p-2 rounded-lg hover:drop-shadow-[0_10px_10px_rgba(166,251,157,5)]">Home</a>
+                <a href="college_projs.html" class="bg-[#a6fb9d] border-[#a6fb9d] text-center border-2 p-2 rounded-lg hover:drop-shadow-[0_10px_10px_rgba(166,251,157,1)]">College Projects</a>
+                <a href="self_projs.html" class="bg-[#a6fb9d] border-[#a6fb9d] text-center border-2 p-2 rounded-lg hover:drop-shadow-[0_10px_10px_rgba(166,251,157,1)]">Self Projects</a>
+            </div>
+        </div>
+
+        <!--Second Grid-->
+        <div class="flex flex-col h-full">
+            <h1 class="text-center text-3xl mt-[2%]">Cycle through and choose a project to view!</h1>
+             <!-- Slideshow container -->
+            <div class="slideshow-container h-[50%] lg:h-[75%]">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <a href="https://github.com/tomosus/eirlys" target="_blank">
+                    <img alt="Image of Eirlys on Github" class="rounded-lg border-2 border-[#a6fb9d] hover:drop-shadow-[0_40px_40px_rgba(166,251,157,5)]" src="../images/self_proj_1.png" style="width:100%">
+                </a>
+                <div class="text text-2xl">Discord Bot In Python</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <a href="https://tomos.live" target="_blank">
+                    <img alt="Image of Personal Website" class="rounded-lg border-2 border-[#a6fb9d] hover:drop-shadow-[0_40px_40px_rgba(166,251,157,5)]" src="../images/self_proj_2.png" style="width:100%">
+                </a>
+                <div class="text text-2xl">Personal Website (Not Yet Finished)</div>
+                </div>
+            
+                <div class="mySlides fade">
+                    <a href="https://github.com/tomosus/Token" target="_blank">
+                    <img alt="Image of Token on Github" class="rounded-lg border-2 border-[#a6fb9d] hover:drop-shadow-[0_40px_40px_rgba(166,251,157,5)]" src="../images/self_proj_3.png" style="width:100%">
+                </a>
+                <div class="text text-2xl">Text Based App In Python</div>
+                </div>
+            
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+            
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+        <script src="../slideshow.js"></script>
+</body>
+</html>
