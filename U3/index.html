@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    pale: '#330033',
+                }
+            }
+        }
+        }
+  </script>
+</head>
+<body>
+    <div class="grid grid-rows-[8em_minmax(24em,24em)_50em_5em]">
+
+        <!--First Grid-->
+        <div class="flex flex-row text-black h-[100%] border-b-2 border-black lg:mx-[10%] bg-[#ffffff]">
+            <div class="w-[50%] sm:w-[30%] md:w-[50%] lg:w-[50%]">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Banner Image" class="w-[50%] sm:w-full md:w-[80%] lg:w-[50%] md:mt-[1%] mx-auto mt-[5%] lg:mt-0 sm:pl-[5%] md:pl-0 lg:pl-0">
+                </a>
+            </div>
+            <div class="w-[50%] sm:w-[7 0%] md:w-[50%] text-[#030500] lg:w-[50%] text-center justify-center space-x-10 sm:space-x-1 md:space-x-4 lg:space-x-24 pt-[5%] lg:pt-[3%] text-xl">
+                <a href="index.html" class="bg-[#a6fb9d] border-[#a6fb9d] text-center border-2 p-2 rounded-lg hover:drop-shadow-[0_10px_10px_rgba(166,251,157,5)]">Home</a>
+                <a href="webpages/college_projs.html" class="bg-[#a6fb9d] border-[#a6fb9d] text-center border-2 p-2 rounded-lg hover:drop-shadow-[0_10px_10px_rgba(166,251,157,1)]">College Projects</a>
+                <a href="webpages/self_projs.html" class="bg-[#a6fb9d] border-[#a6fb9d] text-center border-2 p-2 rounded-lg hover:drop-shadow-[0_10px_10px_rgba(166,251,157,1)]">Self Projects</a>
+            </div>
+        </div>
+
+        <!--Second Grid-->
+        <div class="flex flex-col h-[100%] bg-[#ffffff] text-[#030500]">
+            <div class="flex flex-row h-[70%]">
+                <img src="images/self_image.png" class="border-[#a6fb9d] border-2 ml-[25%] rounded-full h-[80%] mt-[2%] lg:inline-block sm:h-[70%] sm:mt-[5%] md:h-[80%] md:mt-[5%] lg:h-[80%] lg:mt-[2%]">
+                <p class="text-center animate-bounce pt-[1%] my-auto text-5xl lg:my-auto lg:text-5xl ml-[5%] sm:text-3xl text-[#030500]">Thomas Threadgold</p>
+            </div>
+            <div class="h-[30%]"> 
+                <p class="text-center text-2xl mx-2 sm:text-xl md:text-2xl lg:text-2xl border-b-2 border-black pb-[2%] lg:mx-[10%]">Hello and welcome to my portfolio! This portfolio continues all units covered within my Level 2 ICT course. I have made them with the best of my ability and I hope you enjoy it all.</p>
+            </div>
+        </div>
+
+        <!--Third Grid-->
+        <div class="flex flex-col h-[100em] bg-[#ffffff] text-[#030500]">
+            <div class="w-full h-[20%]">
+                <h1 class="text-center mt-[5%] lg:mt-[2%] text-6xl text-[#030500]">Course Work</h1>
+            </div>
+            
+            <!--First 4 Assignments-->
+            <div class="flex w-full h-full px-[2%] flex-row flex-wrap gap-x-20 pl-[10%] text-[#030500]">
+                <a href="webpages/online_world.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%] ">
+                            <h1 class="text-center text-5xl pt-[5%]">Online World</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em]">This assignment is taught by <span class="font-bold">Dale Harrison</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="webpages/tech_systems.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%]">
+                            <h1 class="text-center text-5xl pt-[5%]">Technology Systems</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em]">This assignment is taught by <span class="font-bold">Dale Harrison</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="webpages/comp_network.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%]">
+                            <h1 class="text-center text-5xl pt-[5%] mx-[2%]">Computer Network</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em]">This assignment is taught by <span class="font-bold">Simon Prince</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="webpages/digital_anim.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%]">
+                            <h1 class="text-center text-5xl pt-[5%]">Digital Animation</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em]">This assignment is taught by <span class="font-bold">Dale Harrison</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <!--Last 4 Assignments-->
+            <div class="flex w-full h-full px-[2%] flex-row flex-wrap gap-x-20 pl-[10%]">
+                <a href="webpages/digital_audio.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%]">
+                            <h1 class="text-center text-5xl pt-[5%]">Digital Audio</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em]">This assignment is taught by <span class="font-bold">Robert Barlow</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="webpages/digital_graph.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%]">
+                            <h1 class="text-center text-5xl pt-[5%] mx-[3%]">Digital Graphics</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em]">This assignment is taught by <span class="font-bold">Paul Newman</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="webpages/website_dev.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%]">
+                            <h1 class="text-center text-5xl pt-[5%]">Website Development</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em] mx-[2%]">This assignment is taught by <span class="font-bold">Neil Wickman</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="webpages/mobile_app.html" class="bg-[#a6fb9d]/[0.5] rounded-lg border-2 h-[45%] w-[40%]  mt-[0.7%] hover:drop-shadow-[0_10px_10px_rgba(83,125,78,1)]">
+                    <div class="h-full">
+                        <div class="h-[40%]">
+                            <h1 class="text-center text-5xl pt-[5%]">Mobile App Development</h1>
+                        </div>
+                        <div class="h-[60%]">
+                            <p class="text-center text-[1.5em]">This assignment is taught by <span class="font-bold">Simon Prince</span><br><br><br>Click to see more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
