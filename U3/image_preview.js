@@ -1,4 +1,4 @@
-function imageClick(redirect_url) {
+function imageClick(url, image_id) {
     // Open new window with target="_blank"
-    window.open(redirect_url, '_blank');
+    window.open(url, '_blank');
 }
